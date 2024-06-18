@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Modi | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Designer.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="https://aayushmodi-portfoilo.netlify.app/" style="text-decoration:none" target="_blank">
+                    <img src="./Designer.png" alt="Logo">
+                </a>
+                <span>Aayush Modi</span>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aayush-modi-18jam"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/Aayush1259"><img src="github.png" alt="GitHub"></a>
+            </div>
+            <nav>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links">
+                    <button class="nav-link" onclick="scrollToSection('about')">About</button>
+                    <button class="nav-link" onclick="scrollToSection('skills')">Skills</button>
+                    <button class="nav-link" onclick="scrollToSection('education')">Education</button>
+                    <button class="nav-link" onclick="scrollToSection('experience')">Experience</button>
+                    <button class="nav-link" onclick="scrollToSection('projects')">Projects</button>
+                    <button class="nav-link" onclick="scrollToSection('certifications')">Certifications</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+
+
+    <section id="hero">
+        <div class="container">
+            <div class="content">
+                <h1>Heyy !! Everyone</h1>
+                <p>Discover my Skills, Education, Practical Experience, and More!</p>
+                <button id="download-resume">Download Resume</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <div class="profile-info">
+                <img src="./profile.png" alt="Aayush Modi" class="profile-image">
+            </div>
+            <div class="text-content">
+                <strong>Aayush Modi</strong><br>
+                Vadodara, Gujarat, India<br>
+                <span class="contact-info">
+                    <a href="mailto:aayushkmodi721b@gmail.com"
+                        style="text-decoration:none">aayushkmodi721b@gmail.com</a><br>
+                    <a href="https://www.linkedin.com/in/aayush-modi-18jam" style="text-decoration:none"
+                        target="_blank">LinkedIn Profile</a>
+                </span>
+                <p class="about-description">
+                    A computer science fresher with a passion for Learning and Web Development, Cyber Security.
+                    Good in C, C++, Python, HTML, CSS, JavaScript. Experienced in user-centered design and machine
+                    learning integration.
+                    Seeking to enhance web development projects as a Web Developer or Full Stack Developer.
+                    With well knowledge of PHP, C#, Cloud Computing & Cyber Security.<br>
+                    Currently exploring ASP.NET Framework and React.Js !!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <ul class="skills-list" style="list-style-type: none">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C Programming</li>
+                    <li>C++ Programming</li>
+                    <li>Microsoft Word</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Cyber Security</li>
+                    <li>Cloud Computing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-container">
+                <article class="education-item">
+                    <h3>Bachelor of Engineering in Computer Science</h3>
+                    <div class="education-details">
+                        <p>Dr Kiran & Pallavi Patel Global University KPGU, Vadodara, India</p>
+                        <p>Aug 2021 - Present</p>
+                        <p>Current CGPA: 8.93</p>
+                    </div>
+                </article>
+                <article class="education-item">
+                    <h3>Higher Secondary (12th) Science</h3>
+                    <div class="education-details">
+                        <p>Bright School (GSEB), Vadodara, India</p>
+                        <p>June 2020 - May 2021</p>
+                        <p>Result: 80%</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>Practical Experience</h2>
+            <div class="experience-container">
+                <article class="experience-item"
+                    onclick="window.location.href='https://drive.google.com/file/d/1Jbq2LUwb--VrsFjnPwChF6JcF3OiQXkr/view'">
+                    <h3 class="experience-title">UI/UX Design Internship 🔗</h3>
+                    <p class="experience-company">CodSoft</p>
+                    <p class="experience-duration">April 2024 - May 2024</p>
+                    <ul class="experience-details">
+                        <li>Learned UI/UX design principles.</li>
+                        <li>Hands-on experience in wireframing, prototyping, and user research.</li>
+                        <li>Improved skills in Figma and understood the importance of user-friendly design.</li>
+                    </ul>
+                </article>
+                <article class="experience-item"
+                    onclick="window.location.href='https://drive.google.com/file/d/1-8vdi2fCJ2dLB-5Aw3NZXhayCHIGtKTy/view'">
+                    <h3 class="experience-title">Cyber Security Internship 🔗</h3>
+                    <p class="experience-company">Acmegrade</p>
+                    <p class="experience-duration">Nov 2023 - Jan 2024</p>
+                    <ul class="experience-details">
+                        <li>Acquired basic skills in Cyber Security Tools (WireShark, VMware Workstation).</li>
+                        <li>Performed tasks on "Man in the Middle Attack" (data sniffing, data packet monitoring).</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <article class="project-item"
+                    onclick="window.location.href='https://aayushmodi-portfoilo.netlify.app/'">
+                    <h3>Personal Portfolio Site 🔗</h3>
+                    <p>
+                        A fully responsive single-page website showcasing my work, skills, and experience. Built with
+                        HTML, CSS, and JavaScript.
+                    </p>
+                </article>
+                <article class="project-item" onclick="window.location.href='https://finflexx-aayush1259.netlify.app/'">
+                    <h3>ML-Based Stock Market Analysis & Prediction 🔗</h3>
+                    <p>
+                        Developed a machine learning model (NumPy & Pandas) to predict and analyze stock market trends.
+                        Integrated into a website with a database connection.
+                    </p>
+                </article>
+                <article class="project-item"
+                    onclick="window.location.href='https://aayush1259.github.io/Travelling_Website_Development/'">
+                    <h3>Travel Website Development 🔗</h3>
+                    <p>
+                        Built a travel website (HTML, CSS, & JavaScript) with easy search, interactive elements, and
+                        full itineraries.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="certifications">
+        <div class="container">
+            <h2>My Certifications & Achievements</h2>
+            <div class="certifications-container">
+                <ul class="certifications-list" style="list-style-type: none">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1BcpFX9_qb99O8FaMv3unOmlrXo-YmYRF/view" target="_blank"
+                            class="certification-link">
+                            <strong>NPTEL Cloud Computing (Score: 73%) 🔗</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cloudskillsboost.google/public_profiles/7d7e608e-8563-4f08-afe3-ee7b670aa767"
+                            target="_blank" class="certification-link">
+                            Google Cloud Platform (GCP) Certifications 🔗
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1sLR1pHp3SuF7fMquiP0Zj8_bc_Yz3vFV/view" target="_blank"
+                            class="certification-link">
+                            Coursera Google Foundations of Cybersecurity 🔗
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1XNAiODnluhbI-GgxYnsL_Wu9aNQZ8eUp/view?usp=sharing"
+                            target="_blank" class="certification-link">
+                            Forage JP Morgan Chase & Co Software Engineering Lite Job Simulation 🔗
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1-FO-2tNaNryCz7CwPUBzsDSBMKo2Jl66/view" target="_blank"
+                            class="certification-link">
+                            <strong>Forage JP Morgan Chase & Co Software Engineering Job Simulation 🔗</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1-CxcClT5VFY1DANS7eVCSzq1I3MDICkQ/view" target="_blank"
+                            class="certification-link">
+                            Cisco Introduction To Data Science 🔗
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1-AUBYBH8w4cAvw1runpDiPAcBd5sVX7d/view" target="_blank"
+                            class="certification-link">
+                            Cisco Introduction To Cyber Security 🔗
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="hobbies">
+        <div class="container">
+            <h2>Hobbies & Interests</h2>
+            <ul class="hobbies-list" style="list-style-type: none">
+                <li>Gaming</li>
+                <li>Listening to Music</li>
+                <li>Photography</li>
+                <li>Reading</li>
+                <li>Traveling</li>
+                <li>Learning New Languages</li>
+                <li>Watching Movies & Shows</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2024 Aayush Modi. All rights reserved.</p>
+                <p>Contact: <a href="mailto:aayushkmodi721b@gmail.com"
+                        style="text-decoration:none;">aayushkmodi721b@gmail.com</a></p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aayush-modi-18jam"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/Aayush1259"><img src="github.png" alt="GitHub"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <div id="back-to-top" onclick="scrollToTop()">
+        ↑
+    </div>
+    <script src="scripts.js"></script>
+    <script>
+        // JavaScript for menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('nav-active');
+        });
+    </script>
+</body>
+
+</html>
